@@ -1,3 +1,2 @@
-module.exports = class Character {
+export default class Character {
 }
-

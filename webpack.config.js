@@ -6,13 +6,13 @@ module.exports = {
   entry: './src/index.js',
   module: {
     rules: [
-      { test: /\.css$/, use: [MiniCssExtractPlugin.loader, "css-loader"], },
-      { test: /\.(js)$/, use: 'babel-loader' }
-    ]
+      { test: /\.css$/, use: [MiniCssExtractPlugin.loader, 'css-loader'] },
+      { test: /\.(js)$/, use: 'babel-loader' },
+    ],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js'
+    filename: 'main.js',
   },
   plugins: [
     new HtmlWebPackPlugin({

@@ -1,8 +1,7 @@
-const game = require('./game');
-console.log('app worked');
+import {
+  default as Game, GameSavingData, readGameSaving as saveGame, writeGameSaving as loadGame,
+} from './game';
 
-readGameSaving = loadGame;
-writeGameSaving = saveGame;
-
+/// console.log('app worked');
 const game = new Game();
 game.start();
