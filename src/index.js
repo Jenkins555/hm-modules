@@ -1,4 +1,4 @@
-import './js/app.js';
-import './js/domain.js';
-import './js/game.js';
+import './js/app';
+import './js/domain';
+import './js/game';
 import './css/style.css';

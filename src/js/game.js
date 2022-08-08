@@ -1,8 +1,8 @@
 import Character from './domain';
 
-export default class Game {
+export class Game {
   start() {
-    console.log('game started');
+    console.log('game started', this);
   }
 }
 
